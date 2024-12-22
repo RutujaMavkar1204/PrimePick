@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/RutujaMavkar1204/PrimePick.git/static/css/main.08ed37e2.css",
-    "main.js": "/RutujaMavkar1204/PrimePick.git/static/js/main.c4263d6c.js",
-    "static/js/453.1d723607.chunk.js": "/RutujaMavkar1204/PrimePick.git/static/js/453.1d723607.chunk.js",
-    "static/media/review1.png": "/RutujaMavkar1204/PrimePick.git/static/media/review1.61b435513801e4bf6296.png",
-    "static/media/searchbar1.png": "/RutujaMavkar1204/PrimePick.git/static/media/searchbar1.a829cf59077d7e368357.png",
-    "static/media/movies.jpg": "/RutujaMavkar1204/PrimePick.git/static/media/movies.15d3b6218e641234b5df.jpg",
-    "index.html": "/RutujaMavkar1204/PrimePick.git/index.html",
-    "main.08ed37e2.css.map": "/RutujaMavkar1204/PrimePick.git/static/css/main.08ed37e2.css.map",
-    "main.c4263d6c.js.map": "/RutujaMavkar1204/PrimePick.git/static/js/main.c4263d6c.js.map",
-    "453.1d723607.chunk.js.map": "/RutujaMavkar1204/PrimePick.git/static/js/453.1d723607.chunk.js.map"
+    "main.css": "/PrimePick/static/css/main.1a79d79e.css",
+    "main.js": "/PrimePick/static/js/main.a0761a1f.js",
+    "static/js/453.1d723607.chunk.js": "/PrimePick/static/js/453.1d723607.chunk.js",
+    "static/media/review1.png": "/PrimePick/static/media/review1.61b435513801e4bf6296.png",
+    "static/media/searchbar1.png": "/PrimePick/static/media/searchbar1.a829cf59077d7e368357.png",
+    "static/media/movies.jpg": "/PrimePick/static/media/movies.15d3b6218e641234b5df.jpg",
+    "index.html": "/PrimePick/index.html",
+    "main.1a79d79e.css.map": "/PrimePick/static/css/main.1a79d79e.css.map",
+    "main.a0761a1f.js.map": "/PrimePick/static/js/main.a0761a1f.js.map",
+    "453.1d723607.chunk.js.map": "/PrimePick/static/js/453.1d723607.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08ed37e2.css",
-    "static/js/main.c4263d6c.js"
+    "static/css/main.1a79d79e.css",
+    "static/js/main.a0761a1f.js"
   ]
 }
