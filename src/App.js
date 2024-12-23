@@ -18,7 +18,6 @@ function App() {
     <Navbar/>
     <Outlet/>
     <Footer/>
-
    </UserContextProvider>
 
        
