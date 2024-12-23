@@ -14,10 +14,11 @@ export default function UserContextProvider({children}){
  
  
     useEffect(() => {
-   
       const fetchMovies = async () => {
         const newGenreName={};
+        
         for(let i=0;i<genreIds.length;i++){
+         
           const response = await fetch(
             `https://api.themoviedb.org/3/discover/movie?with_genres=${genreIds[i]}&api_key=f140b5b40027642de9f677ae380251eb`,
             {

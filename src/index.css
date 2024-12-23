@@ -116,11 +116,13 @@ code {
 .darkElement:hover{
   color:#fff;
 }
-
+.searchRandom{
+  display:flex;
+}
 /* .......................card.............................*/
 .card{
   height:26vmax;
-  width:16.5vmax;
+  width:17.5vmax;
   background-color:#151515;
   margin-left:5vmax;
   margin-right:5vmax;
@@ -146,12 +148,12 @@ code {
 }
 .card-img{
   height:20vmax;
-  width:15vmax;
+  width:16vmax;
   border:none;
   
 }
 .card:hover{
-  transform:scale(1.1);
+  transform:scale(1.02);
   cursor:pointer;
   
 }
@@ -181,7 +183,6 @@ code {
   margin-left: 1.4vmax;
   text-decoration:none;
 }
-
 
 
 /**************************************$             HOME PAGE        $******************************************************************************************/

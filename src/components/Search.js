@@ -1,18 +1,21 @@
 import React, { useState, useEffect,useContext } from "react";
 import Card from './Card';
 import userContext from '../context/userContext'
+import CardHori from './CardHori';
+import Home from './Home'
 
 export default function Search() {
   
-  const {username,articles,loading}=useContext(userContext)
+  const {movies,setMovies,genreNames,articles,username}=useContext(userContext)
  
 
   
 
   return (
     <div>
-    
-    <div className="topsearch"></div> 
+  {username?(
+    <div>
+       <div className="topsearch"></div> 
       <div className="row allcard">
         {articles.map((item) => (
           
@@ -30,6 +33,11 @@ export default function Search() {
         ))}
       </div>
      
+    </div>
+  ):(<div>
+          <Home/>
+  </div>)}
+   
 
      
     </div>

@@ -41,15 +41,12 @@ const Card = ({ imgurl,title,year,rating,people}) => {
                      <h3>{title.length>=15?title.slice(0,18)+"...":title}</h3>
                      <div className="cardmoreinfo">
                      <p className="cardInfo1">{year}</p>
-                     
                      <p><i class=" fas fa-solid fa-star star" style={{color: '#FFD43B'}}></i></p>
                      <p className="cardInfo2">{many > 100000 ? `${rating} (${final}lakh)` : `${rating} (${people})`} </p>
 
                      <p>{starsArr}</p>
                      <p>{ans>=5?<i className=" fas fa-solid fa-star-half-alt star" style={{color: '#FFD43B'}}></i>:<i class=" far fa-solid fa-star star" style={{color: '#FFD43B'}}></i>}</p>
                      <p>{starsEmp}</p>
-                     
-
                      </div>
                      
                     

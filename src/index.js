@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
-import {RouterProvider,createBrowserRouter} from 'react-router-dom';
+import {RouterProvider,createHashRouter} from 'react-router-dom';
 import App from './App.js';
 import Home from './components/Home.js'
 import Discover from './components/Discover.js';
@@ -11,7 +11,7 @@ import Search from './components/Search.js'
 import MoreInfo from './components/MoreInfo.js'
 import Moody from './components/Moody.js'
 import MoodMovies from './components/MoodMovies.js'
-const router=createBrowserRouter([
+const router=createHashRouter([
   {
     path:"/",
     element:<App/>,
